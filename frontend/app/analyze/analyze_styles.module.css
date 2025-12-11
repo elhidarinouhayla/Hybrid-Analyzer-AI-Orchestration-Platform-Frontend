@@ -1,0 +1,101 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(255, 240, 248, 0.95);
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(214, 51, 132, 0.2);
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Background girly global pour cette page seulement */
+.pageBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #ffe6f0, #fff0f8);
+  z-index: 0;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #d63384;
+  margin-bottom: 25px;
+  position: relative;
+  text-shadow: 1px 1px 4px #ff99cc;
+  z-index: 1;
+}
+
+.textarea {
+  width: 100%;
+  height: 140px;
+  padding: 14px;
+  border-radius: 15px;
+  border: 2px solid #ffb3d9;
+  outline: none;
+  resize: none;
+  font-size: 15px;
+  background: #fff;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.textarea:focus {
+  border-color: #d63384;
+  box-shadow: 0 0 10px rgba(214, 51, 132, 0.4);
+}
+
+.button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 18px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(45deg, #d63384, #ff85b3);
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.button:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(214, 51, 132, 0.4);
+}
+
+.results {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  position: relative;
+  z-index: 1;
+}
+
+.box {
+  background: #fff;
+  padding: 18px;
+  border-radius: 15px;
+  border: 2px solid #ffd6e8;
+  box-shadow: 0 4px 12px rgba(255, 182, 193, 0.2);
+  font-size: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(214, 51, 132, 0.3);
+}
