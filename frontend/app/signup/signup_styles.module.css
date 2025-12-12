@@ -4,7 +4,6 @@
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #f8d8ff, #ffd6e8, #e1c8ff); 
-  /* Mauve clair + Rose pastel + Lavande */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,10 +24,10 @@
 /* Titre */
 .title {
   font-size: 32px;
-  color: #c050c9; /* Mauve rosé */
+  color: #c050c9; 
   margin-bottom: 25px;
   font-weight: bold;
-  text-shadow: 1px 1px 2px #f7c2e8; /* glow rose/mauve */
+  text-shadow: 1px 1px 2px #f7c2e8; 
 }
 
 /* Input */
@@ -37,7 +36,7 @@
   padding: 12px 15px;
   margin: 10px 0;
   border-radius: 20px;
-  border: 2px solid #e4b3ff; /* Mauve clair */
+  border: 2px solid #e4b3ff; 
   outline: none;
   font-size: 16px;
   transition: all 0.3s ease;
@@ -45,7 +44,7 @@
 }
 
 .input:focus {
-  border-color: #d26ccc; /* mélange mauve + pink */
+  border-color: #d26ccc; 
   box-shadow: 0 0 8px rgba(210,108,204,0.4);
 }
 
@@ -56,7 +55,6 @@
   border: none;
   border-radius: 25px;
   background: linear-gradient(45deg, #c050c9, #ff8fcf); 
-  /* Mauve → rose pastel */
   color: white;
   font-size: 18px;
   cursor: pointer;
@@ -68,7 +66,7 @@
   box-shadow: 0 8px 20px rgba(200,80,201,0.4);
 }
 
-/* Form spacing */
+/* Form  */
 .form {
   display: flex;
   flex-direction: column;

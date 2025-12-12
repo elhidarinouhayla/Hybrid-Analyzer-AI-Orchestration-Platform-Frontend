@@ -2,23 +2,23 @@
   max-width: 800px;
   margin: 40px auto;
   padding: 30px;
-  background: rgba(245, 240, 255, 0.95); /* Lavande très clair */
+  background: rgba(245, 240, 255, 0.95); 
   border-radius: 25px;
-  box-shadow: 0 8px 25px rgba(150, 90, 200, 0.2); /* Mauve soft */
+  box-shadow: 0 8px 25px rgba(150, 90, 200, 0.2); 
   font-family: 'Poppins', sans-serif;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
-/* Background mauve global */
+/* Background  */
 .pageBackground {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #efe3ff, #f7eaff); /* Mauve pastel */
+  background: linear-gradient(135deg, #efe3ff, #f7eaff); 
   z-index: 0;
   overflow: hidden;
 }
@@ -27,10 +27,10 @@
   text-align: center;
   font-size: 32px;
   font-weight: bold;
-  color: #7b3fa1; /* Violet profond */
+  color: #7b3fa1; 
   margin-bottom: 25px;
   position: relative;
-  text-shadow: 1px 1px 4px #cba7ff; /* Glow mauve */
+  text-shadow: 1px 1px 4px #cba7ff; 
   z-index: 1;
 }
 
@@ -39,7 +39,7 @@
   height: 140px;
   padding: 14px;
   border-radius: 15px;
-  border: 2px solid #d5b8ff; /* Mauve clair */
+  border: 2px solid #d5b8ff; 
   outline: none;
   resize: none;
   font-size: 15px;
@@ -50,8 +50,8 @@
 }
 
 .textarea:focus {
-  border-color: #7b3fa1; /* Violet */
-  box-shadow: 0 0 10px rgba(123, 63, 161, 0.4); /* Glow violet */
+  border-color: #7b3fa1; 
+  box-shadow: 0 0 10px rgba(123, 63, 161, 0.4); 
 }
 
 .button {
@@ -60,7 +60,7 @@
   margin-top: 18px;
   border: none;
   border-radius: 15px;
-  background: linear-gradient(45deg, #7b3fa1, #b27bff); /* Dégradé mauve */
+  background: linear-gradient(45deg, #7b3fa1, #b27bff); 
   color: white;
   font-size: 17px;
   font-weight: bold;
@@ -89,7 +89,7 @@
   background: #fff;
   padding: 18px;
   border-radius: 15px;
-  border: 2px solid #e2ccff; /* Mauve pâle */
+  border: 2px solid #e2ccff; 
   box-shadow: 0 4px 12px rgba(180, 150, 230, 0.2);
   font-size: 15px;
   transition: transform 0.3s, box-shadow 0.3s;
