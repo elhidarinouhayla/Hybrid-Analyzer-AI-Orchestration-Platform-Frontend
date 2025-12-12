@@ -2,23 +2,23 @@
   max-width: 800px;
   margin: 40px auto;
   padding: 30px;
-  background: rgba(255, 240, 248, 0.95);
+  background: rgba(245, 240, 255, 0.95); /* Lavande très clair */
   border-radius: 25px;
-  box-shadow: 0 8px 25px rgba(214, 51, 132, 0.2);
+  box-shadow: 0 8px 25px rgba(150, 90, 200, 0.2); /* Mauve soft */
   font-family: 'Poppins', sans-serif;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
-/* Background girly global pour cette page seulement */
+/* Background mauve global */
 .pageBackground {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #ffe6f0, #fff0f8);
+  background: linear-gradient(135deg, #efe3ff, #f7eaff); /* Mauve pastel */
   z-index: 0;
   overflow: hidden;
 }
@@ -27,10 +27,10 @@
   text-align: center;
   font-size: 32px;
   font-weight: bold;
-  color: #d63384;
+  color: #7b3fa1; /* Violet profond */
   margin-bottom: 25px;
   position: relative;
-  text-shadow: 1px 1px 4px #ff99cc;
+  text-shadow: 1px 1px 4px #cba7ff; /* Glow mauve */
   z-index: 1;
 }
 
@@ -39,7 +39,7 @@
   height: 140px;
   padding: 14px;
   border-radius: 15px;
-  border: 2px solid #ffb3d9;
+  border: 2px solid #d5b8ff; /* Mauve clair */
   outline: none;
   resize: none;
   font-size: 15px;
@@ -50,8 +50,8 @@
 }
 
 .textarea:focus {
-  border-color: #d63384;
-  box-shadow: 0 0 10px rgba(214, 51, 132, 0.4);
+  border-color: #7b3fa1; /* Violet */
+  box-shadow: 0 0 10px rgba(123, 63, 161, 0.4); /* Glow violet */
 }
 
 .button {
@@ -60,7 +60,7 @@
   margin-top: 18px;
   border: none;
   border-radius: 15px;
-  background: linear-gradient(45deg, #d63384, #ff85b3);
+  background: linear-gradient(45deg, #7b3fa1, #b27bff); /* Dégradé mauve */
   color: white;
   font-size: 17px;
   font-weight: bold;
@@ -73,7 +73,7 @@
 
 .button:hover {
   transform: translateY(-3px) scale(1.02);
-  box-shadow: 0 8px 20px rgba(214, 51, 132, 0.4);
+  box-shadow: 0 8px 20px rgba(123, 63, 161, 0.4);
 }
 
 .results {
@@ -89,13 +89,13 @@
   background: #fff;
   padding: 18px;
   border-radius: 15px;
-  border: 2px solid #ffd6e8;
-  box-shadow: 0 4px 12px rgba(255, 182, 193, 0.2);
+  border: 2px solid #e2ccff; /* Mauve pâle */
+  box-shadow: 0 4px 12px rgba(180, 150, 230, 0.2);
   font-size: 15px;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .box:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(214, 51, 132, 0.3);
+  box-shadow: 0 10px 25px rgba(123, 63, 161, 0.3);
 }
