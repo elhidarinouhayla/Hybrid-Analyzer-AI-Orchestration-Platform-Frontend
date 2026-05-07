@@ -3,6 +3,7 @@
 
 ## Objectif du projet
 
+
 Ce projet est le frontend d'une plateforme d'orchestration IA developpe avec **Next.js**. Il contient des pages de **Signup**, **Login** et **Analyze** avec des styles modulaires. Le projet est conteneurise avec **Docker** pour faciliter le deploiement.
 
 
